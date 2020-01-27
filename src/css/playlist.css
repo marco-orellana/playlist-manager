@@ -1,0 +1,10 @@
+.playlist ul{
+    height: 70vh;
+    overflow-y: auto;
+}
+.playlist ul li{
+    padding: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}

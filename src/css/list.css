@@ -1,0 +1,9 @@
+.list ul li {
+  cursor: pointer;
+}
+.list ul li:hover, .list ul li:focus .list ul li:active {
+  font-size: x-large;
+  background-color: #007bff;
+}
+
+/*# sourceMappingURL=list.css.map */

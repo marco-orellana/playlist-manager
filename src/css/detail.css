@@ -1,0 +1,27 @@
+
+.detail-result-video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+.detail-result-video div{
+    width: 320px;
+    margin: 2px;
+    padding: 2px;
+}
+.detail-video{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.detail-video div img{
+    width: 400px;
+}
+.detail-video div ul{
+    width: 550px;
+}
+
+.detail-video div ul li{
+    height: 50px;
+}

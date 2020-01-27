@@ -1,0 +1,26 @@
+
+GET http://localhost:8080/playlists HTTP/1.1
+
+###
+
+
+GET http://localhost:8080/playlists/1/tracks HTTP/1.1
+
+###
+
+
+POST http://localhost:8080/playlists/1/tracks HTTP/1.1
+content-type: application/json
+
+{"playlist_id" : 1, "title": "testrfsv hxw", "uri": "test5.com", "master_id": 254}
+
+###
+
+POST http://localhost:8080/discogs/search  HTTP/1.1
+content-type: application/json
+
+{"query": "nirvana"}
+
+###
+
+GET http://localhost:8080/discogs/master/42476  HTTP/1.1

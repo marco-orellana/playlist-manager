@@ -1,0 +1,22 @@
+.navbar-brand{
+    font-weight: bolder;
+    font-size: x-large;
+    cursor: pointer;
+    transition: all .2s;
+    padding: 5px;
+    border: 2px solid #343a40;
+}
+.navbar-brand:hover{
+    border-radius: 7px;
+    border: 2px solid lightgray;
+}
+.navbar-nav li a{
+    width: 160px;
+    letter-spacing: 2px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.lists{
+    cursor: pointer;
+}
